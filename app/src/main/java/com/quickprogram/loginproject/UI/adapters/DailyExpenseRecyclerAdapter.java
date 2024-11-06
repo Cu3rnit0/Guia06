@@ -8,6 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.quickprogram.loginproject.Models.Gastodia;
+import com.quickprogram.loginproject.R;
 import com.quickprogram.loginproject.UI.viewHolders.DailyExpenseViewHolder;
 
 import java.util.ArrayList;

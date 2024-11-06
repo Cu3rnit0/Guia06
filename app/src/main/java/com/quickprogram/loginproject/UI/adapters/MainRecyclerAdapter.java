@@ -1,6 +1,7 @@
 package com.quickprogram.loginproject.UI.adapters;
 
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -8,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.quickprogram.loginproject.Dtos.section;
 import com.quickprogram.loginproject.Models.Presupuesto;
+import com.quickprogram.loginproject.R;
 import com.quickprogram.loginproject.UI.viewHolders.MainViewHolder;
 
 import java.util.ArrayList;
@@ -45,7 +47,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter<MainViewHolder> {
                 break;
         }
         holder.sectionName.setText(sectionName);
-        ChildRecyclerAdapter childRecyclerAdapter = new ChildRecyclerAdapter(items, onChildItemClickListener);
+        MainRecyclerAdapter childRecyclerAdapter = new MainRecyclerAdapter(items, onChildItemClickListener);
         holder.childRcv.setAdapter(childRecyclerAdapter);
     }
     @Override
