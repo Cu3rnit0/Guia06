@@ -1,4 +1,17 @@
 package com.quickprogram.loginproject.UI.viewHolders;
 
-public class ChildViewHolder {
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.quickprogram.loginproject.R;
+
+public class ChildViewHolder extends RecyclerView.ViewHolder {
+    public TextView txvItemRow;
+    public ChildViewHolder(@NonNull View itemView) {
+        super(itemView);
+        txvItemRow = itemView.findViewById(R.id.txvItemRow);
+    }
 }
