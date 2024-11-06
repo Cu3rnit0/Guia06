@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Fondo degradado y colores principales -->
+    <color name="primary">#00796B</color> <!-- Verde corporativo para QuickPrograms -->
+    <color name="primary_dark">#004D40</color> <!-- Verde oscuro para variaciones o fondo -->
+    <color name="accent">#FFC107</color> <!-- Amarillo brillante para destacar -->
+
+    <!-- Colores de texto y fondo -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_hint">#B3FFFFFF</color> <!-- Blanco translúcido para sugerencias -->
+    <color name="black">#000000</color>
+
+    <!-- Fondo degradado -->
+    <color name="gradient_start">#004D40</color> <!-- Color inicial para el degradado -->
+    <color name="gradient_end">#00796B</color> <!-- Color final para el degradado -->
+
+    <!-- Colores de iconos y botones -->
+    <color name="button_color">#00796B</color> <!-- Color verde para el botón principal -->
+
 </resources>
